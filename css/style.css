@@ -1,0 +1,152 @@
+@font-face {
+    font-family: fontBold;
+    src: url(../assets/fonts/Inter-Black.ttf);
+  }
+
+  @font-face {
+    font-family: fontLight;
+    src: url(../assets/fonts/Inter-Regular.ttf);
+  }
+
+
+body {
+    background-color: rgb(245, 245, 245);
+
+}
+
+/* * {
+    font-family: mainFont!important;
+    font-size: 16px;
+} */
+
+
+select {
+    outline: 0;
+    width: 150px;
+    height: 35px;
+    -moz-appearance: none;
+    /* Firefox */
+    -webkit-appearance: none;
+    /* Safari and Chrome */
+    appearance: none;
+    background-image:
+        linear-gradient(45deg, transparent 50%, gray 50%),
+        linear-gradient(135deg, gray 50%, transparent 50%),
+        linear-gradient(to right, #ccc, #ccc);
+    background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+
+}
+
+select:focus {
+    background-image:
+        linear-gradient(45deg, green 50%, transparent 50%),
+        linear-gradient(135deg, transparent 50%, green 50%),
+        linear-gradient(to right, #ccc, #ccc);
+    background-position:
+        calc(100% - 15px) 1em,
+        calc(100% - 20px) 1em,
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+    border-color: green;
+    outline: 0;
+}
+
+.font-bold {
+    font-family: fontBold!important;
+}
+
+.font-light {
+    font-family: fontLight;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.bg-mygray {
+    background-color: rgb(104, 104, 104);
+    
+}
+
+
+.bg-mygraylight {
+    background-color: rgba(226, 226, 226, 0.534);
+    
+}
+
+.icon-width {
+    width: 30px;
+    height: 30px;
+}
+
+.far {
+    font-family: "FontAwesome";
+    font-size: 14px;
+}
+
+.zoom-height{
+    height: 35px;
+}
+
+.bg-remove{
+    background-color: rgba(255, 255, 255, 0);
+    height: 23px;
+}
+
+.avatar {
+    width: 45px;
+    height: 45px;
+}
+
+
+.avatar2 {
+    width: 80px;
+    height: 80px;
+}
+.main-bgcolor {
+    background-color: rgb(245, 245, 245);
+}
+
+.progress-height {
+    height: 300px;
+}
+
+.progress{
+    height: 0.5rem;
+}
+
+.flag {
+    height: max-content;
+}
+
+
+.country-width {
+    width: 100px
+}
+
+.width-normalize{
+    width: auto;
+}
+#map{
+    width: 50%;
+    height: 400px;
+}
+
+@media (max-width: 1024px) {
+    #map{
+        width: 100%;
+    }
+    
+}
